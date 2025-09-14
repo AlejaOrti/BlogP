@@ -40,68 +40,8 @@ header nav a h1 {
 /* main  */
 
 
-/*
-.contenedor {
-  padding: 40px;
-  margin: 30px;
-  background-image: url(../img/frame__.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.contenedor div {
-  width: 50%;
-}
-
-.contenedor div h2 {
-  font-family: "Cambo", serif;
-  text-align: center;
-  font-size: 3em;
-  font-weight: 600;
-  color: #d94e76;
-  margin-bottom: 30px;
-}
-
-.contenedor div p {
-  max-width: 400px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: center;
-
-}
-
-.contenedor img {
-  width: 400px;
-  max-width: 100%;
-
-}
 
 
-.contenedor div h3 {
-  font-family: "Cambo", serif;
-  text-align: center;
-  font-size: 3em;
-  font-weight: 600;
-  color: #d94e76;
-  margin-bottom: 30px;
-}
-
-.contenedor al {
-  list-style-type: style;
-  padding: 0;
-  font-size: 18px;
-  margin: 20px;
-
-}
-*/
 .recetas_p {
   padding: 40px;
   margin: 30px;
