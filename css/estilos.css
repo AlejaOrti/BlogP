@@ -1,0 +1,549 @@
+/*  fuente */
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+/*---reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/*Header*/
+
+header {
+  background: linear-gradient(to right, #ff9adc, #d26fdd, #dd17a5);
+  padding: 20px 0;
+
+}
+header nav a h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 60px;
+  color:rgba(216, 254, 50, 1);
+
+}
+.btn-1{
+  color: rgba(248, 22, 217, 1);
+  border: 1px solid rgba(240, 245, 218, 1);
+  padding:6px;
+  
+}
+
+.btn-1:hover{
+  background-color: rgba(201, 25, 154, 1);
+  color:rgba(240, 245, 218, 1);
+}
+
+/* main  */
+
+
+/*
+.contenedor {
+  padding: 40px;
+  margin: 30px;
+  background-image: url(../img/frame__.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contenedor div {
+  width: 50%;
+}
+
+.contenedor div h2 {
+  font-family: "Cambo", serif;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+}
+
+.contenedor div p {
+  max-width: 400px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+
+}
+
+.contenedor img {
+  width: 400px;
+  max-width: 100%;
+
+}
+
+
+.contenedor div h3 {
+  font-family: "Cambo", serif;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+}
+
+.contenedor al {
+  list-style-type: style;
+  padding: 0;
+  font-size: 18px;
+  margin: 20px;
+
+}
+*/
+.recetas_p {
+  padding: 40px;
+  margin: 30px;
+  background-image: url(../img/frame__.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.recetas_p h2 {
+  font-family: "Cambo", serif;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+
+}
+
+.recetas_p p {
+
+  margin: 20px;
+  font-size: 18px;
+  text-align: center;
+
+}
+.recetas_p div p{
+   margin: 20px;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.recetas_p div h3{
+   margin: 20px;
+  font-size: 16px;
+  text-align: center;
+
+}
+.recetas_p div {
+  width: 250px;
+  height: 300px;
+  margin: 20px;
+  text-align: center;
+  background-color: rgb(248, 194, 232);
+
+}
+
+.recetas_p div img {
+  width: 250px;
+  /* ancho fijo */
+  height: 200px;
+  /* alto fijo */
+  object-fit: cover;
+  /* recorta la imagen para llenar el área */
+  border-radius: 10px;
+
+}
+.recetas_p div img:hover {
+
+ transform: scale(1.05);      
+  filter: brightness(1.1);     
+  transition: all 0.3s ease; 
+  cursor: pointer;           
+}
+   
+
+.consejos {
+  padding: 40px;
+  margin: 30px;
+  background-image: url(../img/frame__.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.consejos h1 {
+  font-family: "Cambo", serif;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+}
+
+.consejos p {
+  max-width: 400px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.consejos_ {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  background: linear-gradient(to right, #ef791295, #efeba0, #f676d2);
+  padding: 40px;
+  margin: 30px;
+}
+
+.consejos_ span {
+  max-width: 400px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center
+}
+
+.consejeoss {
+  padding: 40px;
+  margin: 30px;
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-image: url(../img/frame__.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.consejeoss div {
+  width: 50%;
+}
+
+.consejeoss al {
+  list-style-type: none;
+  margin: 25px;
+  font-size: 19px;
+  width: 10px;
+  padding: 25px;
+  text-align:justify;
+
+}
+
+.consejeoss h2 {
+  font-family: "Cambo", serif;
+  text-align: center;
+  top:15px;
+  font-size: 3em;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+ 
+}
+
+
+.magia{
+   padding: 40px;
+  margin: 30px;
+  background-image: url(../img/frame__.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.magia h2{
+   font-family: "Cambo", serif;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+}
+
+.magia p{
+   text-align: center;
+     font-size: 20px;
+}
+.grid-galeria {
+
+  margin: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  gap: 15px;
+
+}
+
+.grid-galeria div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img-1 {
+  grid-column: span 3;
+}
+.img-4 {
+  grid-column: span 3;
+}
+.img-7 {
+  grid-column: span 3;
+}
+.img-36{
+   grid-column: span 2;
+}
+
+
+.grid-itms {
+  position:relative;
+}
+
+.grid-itms h3{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.232);
+  color: #ffb6c1;
+  padding: 5px;
+  width: 100%;
+}
+.grid-itms img:hover {
+
+ transform: scale(1.05);      
+  filter: brightness(1.1);     
+  transition: all 0.3s ease; 
+  cursor: pointer;           
+}
+
+
+.contacto {
+   padding: 40px;
+  margin: 30px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-image: url(../img/frame__.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contacto h1{
+  font-family: "Cambo", serif;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+}
+
+.contacto p{
+     text-align: center;
+     font-size: 20px;
+}
+
+.contacto img{
+  width: 500px;
+  position:relative;
+  bottom:280px;
+  right:400px;
+}
+
+
+.contacto form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contacto input, textarea{
+  border-color: #c9199a;
+  outline: none;
+  box-shadow: 0 0 5px rgba(201, 25, 154, 0.4);
+  width:300px;
+  align-items:stretch;
+}
+
+footer {
+  background: linear-gradient(to right, #ff9adc, #d26fdd, #dd17a5);
+  -webkit-text-fill-color: rgb(37, 36, 37);
+  gap: 20px;
+}
+
+footer {
+  background-color: #ffb6c1;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-family: "Cambo", serif;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+
+@media screen and (max-width: 650px) {
+  .contenedor div h3 {
+    font-family: "Cambo", serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #d94e76; 
+    margin-bottom: 30px;
+  }
+.contenedor div h2 {
+  font-family: "Cambo", serif;
+  text-align: center;
+  font-size:30px;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+}
+
+.magia h2{
+   font-family: "Cambo", serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+}
+.consejeoss h2 {
+  font-family: "Cambo", serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+}
+
+.consejos h1 {
+  font-family: "Cambo", serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+}
+
+.recetas_p h2 {
+  font-family: "Cambo", serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+
+}
+
+
+@media screen and (max-width: 858px) {
+  .grid-galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px;
+  }
+
+  .grid-itms {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .img-7 {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (max-width: 650px) {
+.consejos_ {
+ display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, #ef791295, #efeba0, #f676d2);
+  padding: 40px;
+  margin: 30px;
+}
+.consejeoss {
+  padding: 40px;
+  margin: 30px;
+  display: flex;
+ justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-image: url(../img/frame__.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+
+.consejeoss al {
+  list-style-type: none;
+  margin: 25px;
+  font-size: 19px;
+  width: 10px;
+  padding: 25px; 
+  text-align:center; 
+
+}
+
+
+ }
+
+ @media screen and (max-width:483px) {
+.grid-galeria {
+
+  grid-template-columns: 1fr;
+  
+
+}
+
+.grid-itms {
+ grid-column:span 1;
+
+}
+
+}
+}
