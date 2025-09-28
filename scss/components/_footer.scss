@@ -1,0 +1,17 @@
+footer {
+    background: linear-gradient(to right, #ff9adc, #d26fdd, #dd17a5);
+    -webkit-text-fill-color: rgb(37, 36, 37);
+    gap: 20px;
+    text-align: center;
+    padding: 15px 0;
+
+}
+
+.footer-container {
+    max-width: 900px;
+    margin: auto;
+
+    p{
+       font-family: "Cambo", serif; 
+    }
+}

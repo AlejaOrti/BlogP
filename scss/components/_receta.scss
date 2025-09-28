@@ -1,0 +1,146 @@
+.recetas_p {
+    padding: 40px;
+    margin: 30px;
+    background-image: url(../img/frame__.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    h2 {
+        font-family: "Cambo", serif;
+        text-align: center;
+        font-size: 3em;
+        font-weight: 600;
+        color: #d94e76;
+        margin-bottom: 30px;
+    }
+
+    p {
+        margin: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    div {
+        width: 350px;
+        height: 350px;
+        margin-bottom: 30px;
+        text-align: center;
+        background-color: rgb(248, 194, 232);
+    }
+
+    div p {
+        margin: 20px;
+        font-size: 16px;
+        text-align: center;
+        background-color: #e9a6f0;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    div h3 {
+        color: rgb(22, 22, 21);
+        text-align: center;
+        background-color: rgb(246, 254, 157);
+        padding: 16px;
+        font-size: 16px;
+
+
+    }
+
+    div img {
+        width: 260px;
+        height: 160px;
+        padding: 10px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    div img:hover {
+
+        transform: scale(1.05);
+        filter: brightness(1.1);
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+}
+.boton_receta {
+  border-color: #f676d2;
+  color: #d94e76;
+  padding: 5px;
+  width: 350px;
+  position: relative;
+  top: 25px;
+  background-color: rgb(239, 218, 222);
+  border-radius: 10px;
+  &:hover {
+  background-color: rgba(201, 25, 154, 1);
+  color: rgba(240, 245, 218, 1);
+}
+}
+
+
+.receta_compartir {
+    padding: 40px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-image: url(../img/frame__.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    p {
+        text-align: center;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    img {
+        max-width: 250px;
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+        margin-top: -40px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    textarea,
+    input {
+        border: 1px solid #c9199a;
+        outline: none;
+        box-shadow: 0 0 5px rgba(201, 25, 154, 0.4);
+        width: 300px;
+        padding: 10px;
+    }
+}
+
+.btn_receta_compartir {
+  border-color: #f676d2;
+  color: #d94e76;
+  padding: 5px;
+  width: 100px;
+  position: relative;
+  background-color: rgb(239, 218, 222);
+  border-radius: 50px;
+
+  &:hover {
+  background-color: rgba(201, 25, 154, 1);
+  color: rgba(240, 245, 218, 1);
+}
+}

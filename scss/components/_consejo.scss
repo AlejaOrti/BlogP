@@ -1,0 +1,146 @@
+.consejos {
+    padding: 40px;
+    margin: 30px;
+    background-image: url(../img/frame__.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    h1 {
+        font-family: "Cambo", serif;
+        text-align: center;
+        font-size: 3em;
+        font-weight: 600;
+        color: #d94e76;
+        margin-bottom: 30px;
+    }
+
+    p {
+        max-width: 400px;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+}
+
+.consejos_ {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    background: linear-gradient(to right, #ef791295, #efeba0, #f676d2);
+    padding: 40px;
+    margin: 30px;
+
+    span {
+        max-width: 400px;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center
+    }
+}
+
+.consejeoss {
+    padding: 40px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-image: url(../img/frame__.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    div {
+        width: 50%;
+    }
+
+    div ol li {
+        list-style-type: none;
+        font-size: 19px;
+        text-align: justify;
+    }
+
+    h2 {
+        font-family: "Cambo", serif;
+        text-align: center;
+        top: 15px;
+        font-size: 3em;
+        font-weight: 600;
+        color: #d94e76;
+        margin-bottom: 30px;
+
+    }
+}
+
+.consejo_compartir {
+    padding: 40px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    background-image: url(../img/frame__.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    p {
+        text-align: center;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    img {
+        max-width: 250px;
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+        margin-top: -40px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    textarea,
+    input {
+        border: 1px solid #c9199a;
+        outline: none;
+        box-shadow: 0 0 5px rgba(201, 25, 154, 0.4);
+        width: 300px;
+        padding: 10px;
+    }
+}
+
+.btn_consejo_compartir {
+    border-color: #f676d2;
+    color: #d94e76;
+    padding: 5px;
+    width: 100px;
+    position: relative;
+    background-color: rgb(239, 218, 222);
+    border-radius: 50px;
+
+    &:hover {
+        background-color: rgba(201, 25, 154, 1);
+        color: rgba(240, 245, 218, 1);
+
+    }
+}

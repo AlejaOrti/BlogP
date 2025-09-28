@@ -1,0 +1,131 @@
+
+@media screen and (max-width: 650px) {
+
+  .magia h2 {
+    font-family: "Cambo", serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #d94e76;
+    margin-bottom: 30px;
+  }
+
+  .consejeoss h2 {
+    font-family: "Cambo", serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #d94e76;
+    margin-bottom: 30px;
+  }
+
+  .consejos h1 {
+    font-family: "Cambo", serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #d94e76;
+    margin-bottom: 30px;
+  }
+
+  .recetas_p h2 {
+    font-family: "Cambo", serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #d94e76;
+    margin-bottom: 30px;
+
+  }
+
+  .consejos_ {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: linear-gradient(to right, #ef791295, #efeba0, #f676d2);
+    padding: 40px;
+    margin: 30px;
+  }
+
+  .consejeoss {
+    padding: 40px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-image: url(../img/frame__.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+
+
+  .consejeoss al {
+    list-style-type: none;
+    margin: 25px;
+    font-size: 19px;
+    width: 10px;
+    padding: 25px;
+    text-align: center;
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 858px) {
+  .grid-galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 220px;
+  }
+
+  .grid-itms {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .img-7 {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .grid-galeria {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-itms {
+    grid-column: span 1;
+  }
+}
+@media screen and (max-width: 1032px) {
+  .contenedor_1 {
+    padding: 40px;
+    margin: 30px;
+    background-image: url(../img/frame__.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .contenedor_1 img {
+    position: relative;
+    top: 20px;
+    left: -60px;
+    width: 270px;
+
+  }
+}

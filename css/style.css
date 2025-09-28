@@ -1,8 +1,6 @@
 /*  fuente */
-@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
 /*---reset */
 * {
   margin: 0;
@@ -10,36 +8,25 @@
   box-sizing: border-box;
 }
 
-
-
-/*Header*/
-
 header {
   background: linear-gradient(to right, #ff9adc, #d26fdd, #dd17a5);
   padding: 20px 0;
-
 }
-
 header nav a h1 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 60px;
-  color: rgba(216, 254, 50, 1);
-
+  color: rgb(216, 254, 50);
 }
 
 .btn-1 {
-  color: rgba(248, 22, 217, 1);
-  border: 1px solid rgba(240, 245, 218, 1);
+  color: rgb(248, 22, 217);
+  border: 1px solid rgb(240, 245, 218);
   padding: 6px;
-
 }
-
 .btn-1:hover {
-  background-color: rgba(201, 25, 154, 1);
-  color: rgba(240, 245, 218, 1);
+  background-color: rgb(201, 25, 154);
+  color: rgb(240, 245, 218);
 }
-
-/* main  */
 
 .contenedor_1 {
   padding: 40px;
@@ -55,7 +42,13 @@ header nav a h1 {
   gap: 20px;
   flex-wrap: nowrap;
 }
-
+.contenedor_1 img {
+  position: relative;
+  top: 20px;
+  left: -60px;
+  width: 300px;
+  border-radius: 50px;
+}
 .contenedor_1 div {
   display: flex;
   flex-direction: column;
@@ -63,7 +56,6 @@ header nav a h1 {
   max-width: 60%;
   gap: 15px;
 }
-
 .contenedor_1 div h2 {
   font-family: "Cambo", serif;
   text-align: center;
@@ -72,20 +64,10 @@ header nav a h1 {
   color: #d94e76;
   margin-bottom: 30px;
 }
-
 .contenedor_1 div p {
   margin: 18px;
   font-size: 18px;
   text-align: justify;
-}
-
-.contenedor_1 img {
-  position: relative;
-  top: 20px;
-  left: -60px;
-  width: 300px;
-  border-radius: 50px;
-
 }
 
 .contenedor_2 {
@@ -102,7 +84,6 @@ header nav a h1 {
   gap: 20px;
   flex-wrap: wrap;
 }
-
 .contenedor_2 div {
   display: flex;
   flex-direction: column;
@@ -110,8 +91,6 @@ header nav a h1 {
   max-width: 60%;
   gap: 15px;
 }
-
-
 .contenedor_2 div h3 {
   font-family: "Cambo", serif;
   text-align: center;
@@ -120,7 +99,6 @@ header nav a h1 {
   color: #d94e76;
   margin-bottom: 30px;
 }
-
 .contenedor_2 div ul li {
   display: inline-block;
   margin: 0 10px;
@@ -128,9 +106,7 @@ header nav a h1 {
   text-align: center;
   font-size: 20px;
 }
-
 .contenedor_2 div ul li:hover {
-
   color: rgb(248, 153, 223);
 }
 
@@ -144,10 +120,9 @@ header nav a h1 {
   position: relative;
   bottom: 10px;
 }
-
 .boton_blog:hover {
-  background-color: rgba(201, 25, 154, 1);
-  color: rgba(240, 245, 218, 1);
+  background-color: rgb(201, 25, 154);
+  color: rgb(240, 245, 218);
 }
 
 .creaciones {
@@ -164,7 +139,6 @@ header nav a h1 {
   gap: 20px;
   flex-wrap: wrap;
 }
-
 .creaciones h2 {
   font-family: "Cambo", serif;
   text-align: center;
@@ -173,41 +147,24 @@ header nav a h1 {
   color: #d94e76;
   margin-bottom: 30px;
 }
-
 .creaciones div {
   width: 340px;
   height: 400px;
   margin: 20px;
   text-align: center;
   background-color: rgb(248, 194, 232);
-
 }
-
-.parrafo {
-  margin: 18px;
-  font-size: 18px;
-  text-align: center;
-  background-color: #efeba0;
-
-}
-
 .creaciones div p {
   margin: 18px;
   font-size: 18px;
   text-align: center;
-
-
 }
-
 .creaciones div img {
   width: 200px;
   height: 200px;
   object-fit: cover;
   border-radius: 10px;
-
-
 }
-
 .creaciones div h3 {
   color: antiquewhite;
   text-align: center;
@@ -215,18 +172,23 @@ header nav a h1 {
   padding: 16px;
 }
 
-.boton_index {
+.parrafo {
+  margin: 18px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #efeba0;
+}
 
+.boton_index {
   border-color: #f676d2;
   color: #d94e76;
   padding: 5px;
   width: 340px;
   background-color: rgb(248, 194, 232);
 }
-
 .boton_index:hover {
-  background-color: rgba(201, 25, 154, 1);
-  color: rgba(240, 245, 218, 1);
+  background-color: rgb(201, 25, 154);
+  color: rgb(240, 245, 218);
 }
 
 .recetas_p {
@@ -243,8 +205,6 @@ header nav a h1 {
   gap: 30px;
   flex-wrap: wrap;
 }
-
-
 .recetas_p h2 {
   font-family: "Cambo", serif;
   text-align: center;
@@ -252,15 +212,19 @@ header nav a h1 {
   font-weight: 600;
   color: #d94e76;
   margin-bottom: 30px;
-
 }
-
 .recetas_p p {
   margin: 20px;
   font-size: 18px;
   text-align: center;
 }
-
+.recetas_p div {
+  width: 350px;
+  height: 350px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: rgb(248, 194, 232);
+}
 .recetas_p div p {
   margin: 20px;
   font-size: 16px;
@@ -269,23 +233,25 @@ header nav a h1 {
   padding: 10px;
   border-radius: 10px;
 }
-
 .recetas_p div h3 {
   color: rgb(22, 22, 21);
   text-align: center;
   background-color: rgb(246, 254, 157);
   padding: 16px;
   font-size: 16px;
-
-
 }
-
-.recetas_p div {
-  width: 350px;
-  height: 350px;
-  margin-bottom: 30px;
-  text-align: center;
-  background-color: rgb(248, 194, 232);
+.recetas_p div img {
+  width: 260px;
+  height: 160px;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.recetas_p div img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .boton_receta {
@@ -298,33 +264,9 @@ header nav a h1 {
   background-color: rgb(239, 218, 222);
   border-radius: 10px;
 }
-
 .boton_receta:hover {
-  background-color: rgba(201, 25, 154, 1);
-  color: rgba(240, 245, 218, 1);
-}
-
-.recetas_p div img {
-  width: 260px;
-  height: 160px;
-  padding: 10px;
-  object-fit: cover;
-  border-radius: 10px;
-
-}
-
-.recetas_p div img:hover {
-
-  transform: scale(1.05);
-  filter: brightness(1.1);
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-.receta_compartir p {
-  text-align: center;
-  font-size: 20px;
-  width: 100%;
+  background-color: rgb(201, 25, 154);
+  color: rgb(240, 245, 218);
 }
 
 .receta_compartir {
@@ -340,7 +282,11 @@ header nav a h1 {
   background-size: cover;
   background-attachment: fixed;
 }
-
+.receta_compartir p {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+}
 .receta_compartir img {
   max-width: 250px;
   width: 100%;
@@ -348,6 +294,19 @@ header nav a h1 {
   display: block;
   border-radius: 10px;
   margin-top: -40px;
+}
+.receta_compartir form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.receta_compartir textarea,
+.receta_compartir input {
+  border: 1px solid #c9199a;
+  outline: none;
+  box-shadow: 0 0 5px rgba(201, 25, 154, 0.4);
+  width: 300px;
+  padding: 10px;
 }
 
 .btn_receta_compartir {
@@ -359,24 +318,9 @@ header nav a h1 {
   background-color: rgb(239, 218, 222);
   border-radius: 50px;
 }
-
 .btn_receta_compartir:hover {
-  background-color: rgba(201, 25, 154, 1);
-  color: rgba(240, 245, 218, 1);
-}
-
-.receta_compartir form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.receta_compartir textarea, input {
-  border: 1px solid #c9199a;
-  outline: none;
-  box-shadow: 0 0 5px rgba(201, 25, 154, 0.4);
-  width: 300px;
-  padding: 10px;
+  background-color: rgb(201, 25, 154);
+  color: rgb(240, 245, 218);
 }
 
 .consejos {
@@ -393,7 +337,6 @@ header nav a h1 {
   gap: 20px;
   flex-wrap: wrap;
 }
-
 .consejos h1 {
   font-family: "Cambo", serif;
   text-align: center;
@@ -402,7 +345,6 @@ header nav a h1 {
   color: #d94e76;
   margin-bottom: 30px;
 }
-
 .consejos p {
   max-width: 400px;
   font-size: 19px;
@@ -416,17 +358,16 @@ header nav a h1 {
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
-  background: linear-gradient(to right, #ef791295, #efeba0, #f676d2);
+  background: linear-gradient(to right, rgba(239, 121, 18, 0.5843137255), #efeba0, #f676d2);
   padding: 40px;
   margin: 30px;
 }
-
 .consejos_ span {
   max-width: 400px;
   font-size: 19px;
   font-weight: 400;
   line-height: 1.5;
-  text-align: center
+  text-align: center;
 }
 
 .consejeoss {
@@ -442,19 +383,15 @@ header nav a h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
 }
-
 .consejeoss div {
   width: 50%;
 }
-
 .consejeoss div ol li {
   list-style-type: none;
   font-size: 19px;
   text-align: justify;
 }
-
 .consejeoss h2 {
   font-family: "Cambo", serif;
   text-align: center;
@@ -463,14 +400,6 @@ header nav a h1 {
   font-weight: 600;
   color: #d94e76;
   margin-bottom: 30px;
-
-}
-
- 
-.consejo_compartir p {
-  text-align: center;
-  font-size: 20px;
-  width: 100%;
 }
 
 .consejo_compartir {
@@ -486,7 +415,11 @@ header nav a h1 {
   background-size: cover;
   background-attachment: fixed;
 }
-
+.consejo_compartir p {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+}
 .consejo_compartir img {
   max-width: 250px;
   width: 100%;
@@ -494,6 +427,19 @@ header nav a h1 {
   display: block;
   border-radius: 10px;
   margin-top: -40px;
+}
+.consejo_compartir form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.consejo_compartir textarea,
+.consejo_compartir input {
+  border: 1px solid #c9199a;
+  outline: none;
+  box-shadow: 0 0 5px rgba(201, 25, 154, 0.4);
+  width: 300px;
+  padding: 10px;
 }
 
 .btn_consejo_compartir {
@@ -505,26 +451,10 @@ header nav a h1 {
   background-color: rgb(239, 218, 222);
   border-radius: 50px;
 }
-
 .btn_consejo_compartir:hover {
-  background-color: rgba(201, 25, 154, 1);
-  color: rgba(240, 245, 218, 1);
+  background-color: rgb(201, 25, 154);
+  color: rgb(240, 245, 218);
 }
-
-.consejo_compartir form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.consejo_compartir textarea, input {
-  border: 1px solid #c9199a;
-  outline: none;
-  box-shadow: 0 0 5px rgba(201, 25, 154, 0.4);
-  width: 300px;
-  padding: 10px;
-}
-
 
 .magia {
   padding: 40px;
@@ -535,7 +465,6 @@ header nav a h1 {
   background-size: cover;
   background-attachment: fixed;
 }
-
 .magia h2 {
   font-family: "Cambo", serif;
   text-align: center;
@@ -544,30 +473,24 @@ header nav a h1 {
   color: #d94e76;
   margin-bottom: 30px;
 }
-
 .magia p {
   text-align: center;
   font-size: 20px;
 }
 
 .grid-galeria {
-
   margin: 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 200px;
   gap: 15px;
-
 }
-
 .grid-galeria div img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
-.grid-itms  img:hover {
-
+.grid-galeria:hover {
   transform: scale(1.05);
   filter: brightness(1.1);
   transition: all 0.3s ease;
@@ -590,24 +513,15 @@ header nav a h1 {
   grid-column: span 2;
 }
 
-
 .grid-itms {
   position: relative;
 }
-
 .grid-itms h3 {
   position: absolute;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.232);
   color: #ffb6c1;
   padding: 5px;
-  width: 100%;
-}
-
-
-.magia_compartir p {
-  text-align: center;
-  font-size: 20px;
   width: 100%;
 }
 
@@ -624,7 +538,11 @@ header nav a h1 {
   background-size: cover;
   background-attachment: fixed;
 }
-
+.magia_compartir p {
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+}
 .magia_compartir img {
   max-width: 250px;
   width: 100%;
@@ -632,6 +550,19 @@ header nav a h1 {
   display: block;
   border-radius: 10px;
   margin-top: -40px;
+}
+.magia_compartir form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.magia_compartir textarea,
+.magia_compartir input {
+  border: 1px solid #c9199a;
+  outline: none;
+  box-shadow: 0 0 5px rgba(201, 25, 154, 0.4);
+  width: 300px;
+  padding: 10px;
 }
 
 .btn_magia_compartir {
@@ -643,27 +574,10 @@ header nav a h1 {
   background-color: rgb(239, 218, 222);
   border-radius: 50px;
 }
-
 .btn_magia_compartir:hover {
-  background-color: rgba(201, 25, 154, 1);
-  color: rgba(240, 245, 218, 1);
+  background-color: rgb(201, 25, 154);
+  color: rgb(240, 245, 218);
 }
-
-.magia_compartir form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.magia_compartir textarea, input {
-  border: 1px solid #c9199a;
-  outline: none;
-  box-shadow: 0 0 5px rgba(201, 25, 154, 0.4);
-  width: 300px;
-  padding: 10px;
-}
-
-
 
 .contacto {
   padding: 40px;
@@ -678,8 +592,6 @@ header nav a h1 {
   background-size: cover;
   background-attachment: fixed;
 }
-
-
 .contacto h1 {
   font-family: "Cambo", serif;
   text-align: center;
@@ -689,14 +601,11 @@ header nav a h1 {
   width: 100%;
   margin-bottom: 30px;
 }
-
 .contacto p {
   text-align: center;
   font-size: 20px;
   width: 100%;
 }
-
-
 .contacto img {
   max-width: 500px;
   width: 100%;
@@ -705,15 +614,13 @@ header nav a h1 {
   border-radius: 10px;
   margin-top: -60px;
 }
-
 .contacto form {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
-
 .contacto input,
-textarea {
+.contacto textarea {
   border: 1px solid #c9199a;
   outline: none;
   box-shadow: 0 0 5px rgba(201, 25, 154, 0.4);
@@ -721,29 +628,23 @@ textarea {
   padding: 10px;
 }
 
-
 footer {
   background: linear-gradient(to right, #ff9adc, #d26fdd, #dd17a5);
   -webkit-text-fill-color: rgb(37, 36, 37);
   gap: 20px;
   text-align: center;
   padding: 15px 0;
-
 }
 
 .footer-container {
   max-width: 900px;
   margin: auto;
 }
-
 .footer-container p {
   font-family: "Cambo", serif;
 }
 
-
-
 @media screen and (max-width: 650px) {
-
   .magia h2 {
     font-family: "Cambo", serif;
     text-align: center;
@@ -752,7 +653,6 @@ footer {
     color: #d94e76;
     margin-bottom: 30px;
   }
-
   .consejeoss h2 {
     font-family: "Cambo", serif;
     text-align: center;
@@ -761,7 +661,6 @@ footer {
     color: #d94e76;
     margin-bottom: 30px;
   }
-
   .consejos h1 {
     font-family: "Cambo", serif;
     text-align: center;
@@ -770,7 +669,6 @@ footer {
     color: #d94e76;
     margin-bottom: 30px;
   }
-
   .recetas_p h2 {
     font-family: "Cambo", serif;
     text-align: center;
@@ -778,20 +676,17 @@ footer {
     font-weight: 600;
     color: #d94e76;
     margin-bottom: 30px;
-
   }
-
   .consejos_ {
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    background: linear-gradient(to right, #ef791295, #efeba0, #f676d2);
+    background: linear-gradient(to right, rgba(239, 121, 18, 0.5843137255), #efeba0, #f676d2);
     padding: 40px;
     margin: 30px;
   }
-
   .consejeoss {
     padding: 40px;
     margin: 30px;
@@ -805,10 +700,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
   }
-
-
   .consejeoss al {
     list-style-type: none;
     margin: 25px;
@@ -816,34 +708,25 @@ footer {
     width: 10px;
     padding: 25px;
     text-align: center;
-
   }
-
-
 }
-
-
 @media screen and (max-width: 858px) {
   .grid-galeria {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 220px;
   }
-
   .grid-itms {
     grid-column: span 1;
     grid-row: span 1;
   }
-
   .img-7 {
     grid-column: span 2;
   }
 }
-
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .grid-galeria {
     grid-template-columns: 1fr;
   }
-
   .grid-itms {
     grid-column: span 1;
   }
@@ -863,12 +746,12 @@ footer {
     gap: 20px;
     flex-wrap: wrap;
   }
-
   .contenedor_1 img {
     position: relative;
     top: 20px;
     left: -60px;
     width: 270px;
-
   }
 }
+
+/*# sourceMappingURL=style.css.map */

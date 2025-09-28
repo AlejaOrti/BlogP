@@ -1,0 +1,24 @@
+//VARIABLES
+$color-principal:red;
+$color-secundario:blue;
+$color-terciario:green;
+
+//listas
+
+$colores: red, green, blue, pink;
+
+//EXTENDS 
+
+ %boton{
+color: aqua;
+background-color: bisque;
+border: 2px solid black;
+}
+
+
+// MIXIN 
+@mixin flex ($flex, $justify, $aling){
+  display:$flex;
+  justify-content:$justify;
+  align-items:$aling;
+}

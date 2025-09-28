@@ -1,0 +1,35 @@
+/*  fuente */
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+/*---reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(to right, #ff9adc, #d26fdd, #dd17a5);
+    padding: 20px 0;
+
+    nav a h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+        color: rgba(216, 254, 50, 1);
+
+    }
+}
+
+.btn-1 {
+  color: rgba(248, 22, 217, 1);
+  border: 1px solid rgba(240, 245, 218, 1);
+  padding: 6px;
+
+  &:hover {
+  background-color: rgba(201, 25, 154, 1);
+  color: rgba(240, 245, 218, 1);
+}
+
+}
