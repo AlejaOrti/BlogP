@@ -4,22 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="stylesheet" href="./css/estilos.css"> -->
-<link rel="stylesheet" href="../css/style.css"> 
+  <!--<link rel="stylesheet" href="./css/estilos.css"> -->
+  <link rel="stylesheet" href="../css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  
-    <title>Dulce Encanto</title>
+
+  <title>Dulce Encanto: Ideas dulces, decoración y recetas fáciles</title>
+  <meta name="keywords" content="blog de cocina, blog de panaderia, blog de resposteria, postres, tortas, helados">
+  <meta name="description" content="sección de consejos sobre pasteleria ">
+  <link rel="icon" href="../img/gatito-pastelero.png" type="image/x-icon">
 </head>
 
-<body>
+<body class="bg-rosa text-black">
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">
-         <h1 class="animate__bounceIn">Dulce Encanto</h1>
+          <h1 class="animate__bounceIn">Dulce Encanto</h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +31,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              <a class="nav" aria-current="page" href="../index.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              <a class="nav" href="../pages/contacto.html">Contacto</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              <a class="nav" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Menu
               </a>
@@ -58,21 +61,10 @@
     </nav>
   </header>
   <main>
-    <section class="consejos">
-      <h1> Consejitos dulzones</h1>
-      <p>En esta sección encontrarás tips prácticos y fáciles de aplicar que harán la diferencia en tu cocina. Desde
-        cómo lograr bizcochos más esponjosos hasta técnicas para decorar pasteles como un profesional, aquí compartimos
-        esos pequeños secretos que todo amante de la repostería debería conocer.</p>
-    </section>
-    <section class="consejos_">
-      <span>En esta sección podrás disfrutar de un video donde te mostramos, de manera práctica y sencilla, cómo
-        preparar deliciosos postres. Verás cada detalle del proceso, con trucos y consejos que harán que tus creaciones
-        en la cocina sean más fáciles y divertidas. ¡Dale play y endulza tu día con nosotros! 🍰✨</span>
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zeEMKy6WZ0E?si=58fVmqj5bgkNYolI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </section>
-    <section class="consejeoss">
-      <h2> Te damos estos tips para tus preparaciones</h2>
 
+      <h1 class="titulo-consejos" > Consejitos dulzones</h1>
+  
+    <section class="consejeoss">
       <div>
         <ol>
           <li>🍫<strong>Bizcochos más esponjosos: </strong> Tamiza siempre la harina y bate bien los huevos para
@@ -87,26 +79,26 @@
             de pan.</li>
         </ol>
       </div>
-        </section>
-     <section class="consejo_compartir">
-      
-         <p>Si tienes algun tips que quieras compartir, puedes escribirla por acá.</p>
-                
-    <img src="../img/gatito .png" alt="">
-        <form>
-        
-      <label for="nombre">Nombre:</label>
-      <input type="text" name="nombre" id="nombre">
-      <label for="mensaje">Mensaje:</label>
-      <textarea name="mensaje"  id="mensaje"></textarea>
-          <button class="btn_consejo_compartir">Compartir</button> 
-        </form>
-
-
-       </section>
-
-
-  
+    </section>
+    <section class="consejos_">
+      <h2> Te damos estos tips para tus preparaciones</h2>
+  <div class="contenedor-videos">
+    <iframe  width="560" height="315" src="https://www.youtube.com/embed/8GqC-U4CXy8?si=TqF0Rb1b1V6YapiI" 
+  title="YouTube video player"   frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> </iframe>
+<iframe  width="560" height="315" src="https://www.youtube.com/embed/Of0C40YNN3s?si=kXSavmmeGE-M6ugW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</section>
+      <section class="consejo_compartir">
+      <p>Si tienes algun tips que quieras compartir, puedes escribirla por acá.</p>
+      <img src="../img/gatito .png" alt="imagen de gato">
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje"></textarea>
+        <button class="btn_consejo_compartir">Compartir</button>
+      </form>
+    </section>
   </main>
   <footer>
     <div class="footer-container">
