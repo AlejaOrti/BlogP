@@ -365,17 +365,21 @@ header nav h1 {
 }
 
 
-
 .consejos_ {
-  font-family: "Cambo", serif;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
-  color: #d94e76;
-  margin-bottom: 30px;
-  padding: 50px;
+  padding: 40px;
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  gap: 30px;
+  background-image: url(../img/images.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 
 }
+
 
 
 .consejos_ h2 {
@@ -395,10 +399,11 @@ header nav h1 {
   flex-wrap: wrap;          
 }
 
-.contenedor-videos video {
-  width: 400px;             
-  height: 225px;
+.contenedor-videos iframe {
+  width: 300px;             
+  height: 400px;
   padding: 5px;
+   box-shadow: 0 4px 8px rgba(222, 161, 202, 0.868);
 }
 
 
@@ -818,6 +823,92 @@ footer {
 }
 
 
+@media screen and (max-width: 500px) {
+
+  
+.boton_receta { 
+  border-color: #ed09ac;
+  color: #d94e76;
+  padding: 5px;
+  width: 250px;
+  position: relative;
+  top: 25px;
+  background-color: rgb(239, 218, 222);
+  border-radius: 10px;
+}
+
+.consejos_ h2 {
+  font-family: "Cambo", serif;
+  text-align: center;
+  font-size:33px;
+  color: #d94e76;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.contenedor-videos {
+   flex-direction: column;
+    align-items: center;
+    text-align: center;
+  gap: 20px;               
+  flex-wrap: wrap;         
+  padding: 20px;
+}
+
+
+.contenedor-videos iframe {
+  width:100%;         
+  max-width: 400px;        
+  height: auto;            
+  border-radius: 10px;     
+  box-shadow: 0 4px 8px rgba(222, 161, 202, 0.868);
+}
+.consejeoss {
+  background-image: url(../img/images.jpg);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+ .titulo-consejos{
+   font-family: "Cambo", serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+  padding: 50px 0;
+
+}
+
+.consejeoss div {
+  width: 50%;
+}
+
+.consejeoss div ol li {
+  list-style-type: none;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.consejeoss h2 {
+  font-family: "Cambo", serif;
+  text-align: center;
+  top: 15px;
+  font-size: 2em;
+  font-weight: 600;
+  color: #d94e76;
+  margin-bottom: 30px;
+}
+
+
+}
 
 @media screen and (max-width: 650px) {
   .magia h2 {
@@ -973,6 +1064,7 @@ footer {
   .recetas_p,
   .receta_compartir,
   .consejeoss,
+  .consejos_,
   .contacto {
     flex-direction: column;
     align-items: center;
@@ -996,10 +1088,18 @@ footer {
     grid-auto-rows: 180px;
   }
 
-  .contenedor-videos video {
-    width: 100%;
-    height: auto;
-  }
+  .contenedor-videos {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contenedor-videos video {
+  width: 45%;
+  max-width: 50px;
+  border-radius: 5px;
+}
 
   .card,
   .recetas_p div {
@@ -1018,6 +1118,7 @@ footer {
   .contenedor_2,
   .creaciones,
   .recetas_p,
+  .consejos_,
   .consejeoss {
     flex-wrap: wrap;
     justify-content: center;
