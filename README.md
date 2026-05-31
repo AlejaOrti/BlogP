@@ -1,5 +1,7 @@
-<h3 align="left">Connect with me:</h3>
-<p align="left">
+<h3 align="left"> PROYECTO </h3>
+<p align="left"> Proyecto desarrollado como parte de la formación en Desarrollo Web de Coderhouse, con el objetivo de aplicar conocimientos de maquetación web, diseño responsivo y publicación de sitios estáticos.
+
+Dulce Encanto es un blog dedicado al mundo de la repostería, creado para compartir recetas, consejos e inspiración para quienes disfrutan de la elaboración de postres. El proyecto fue diseñado priorizando una experiencia visual atractiva, una navegación intuitiva y una correcta organización del contenido.
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
